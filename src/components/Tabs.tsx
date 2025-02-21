@@ -18,7 +18,7 @@ const Tabs = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex items-center justify-between px-4 py-2  text-white relative font-sen bg-darkBackground">
+    <header className="flex items-center justify-between px-2  text-white relative font-sen bg-darkBackground  ">
       {/* Logo */}
       <div className="relative w-16 h-16">
        <Link href='/'>
@@ -32,7 +32,7 @@ const Tabs = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden lg:flex items-center space-x-6 sticky ">
+      <nav className="hidden lg:flex items-center space-x-6 sticky pt-6">
         <TabLink href="/" icon={<CiHome size={24} />} label="Home" />
         <TabLink href="/about" icon={<IoInformation size={24} />} label="About" />
         <TabLink href="/tools" icon={<FiTool size={24} />} label="Tools" />
