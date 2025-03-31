@@ -53,13 +53,14 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-[22rem,1fr] gap-8 px-6 md:px-12 lg:px-24 min-w-0">
         {/* Left Section */}
         <div className="flex flex-col items-center justify-center p-6 rounded-lg max-h-80 font-sen ">
-          <Image
-            src="/me.jpg"
-            alt="Profile"
-            width={20}
-            height={20}
-            className="w-48 h-48 rounded-full object-cover mb-4"
-          />
+        <Image
+  src="/me.jpg"
+  alt="Profile"
+  width={192}
+  height={192}
+  className="w-48 h-48 rounded-full object-cover mb-4"
+/>
+
           <p className="text-lg font-medium text-center w-fit">
             Hi, I&apos;m David! I&apos;m passionate about crafting intuitive and
             user-centric interfaces that offer seamless and engaging

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { MdWhatsapp } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Card } from "@/components/Crad";
 import { FaLocationDot } from "react-icons/fa6";
@@ -58,13 +58,14 @@ const Page = () => {
         {/* Profile Section */}
         <div className="relative flex justify-center items-center text-white p-4">
           <Image
-            src="/me.jpg"
+            src="/illustartion.jpg"
             alt="Profile Picture"
             layout="fill"
             objectFit="contain"
-            className="p-4"
+            className=""
             loading="lazy"
           />
+       
         </div>
 
         {/* Bio Section */}
@@ -79,21 +80,26 @@ const Page = () => {
 
           {/* Social Icons */}
           <div className="flex justify-center space-x-4 mt-6 flex-wrap">
-            <a href="#" className="text-white">
-              <MdWhatsapp size={28} />
-            </a>
-            <a href="#" className="text-white">
+          <a href="https://wa.me/2340956056463" target="_blank" rel="noopener noreferrer" className="text-white">
+  <MdWhatsapp size={28} />
+</a>
+
+            {/* <a href="#" className="text-white">
               <FaGithub size={28} />
-            </a>
-            <a href="#" className="text-white">
-              <SiGmail size={28} />
-            </a>
+            </a> */}
+       <a 
+  href="mailto:ajitenadavid@gmail.com@gmail.com" 
+  className="text-white"
+>
+  <SiGmail size={28} />
+</a>
+
           </div>
 
           {/* Call-to-Action Button */}
-          <div className="flex justify-center mt-6">
+          {/* <div className="flex justify-center mt-6">
             <button className="text-white px-4 py-2 rounded-lg bg-blue-400">Let&apos;s chat</button>
-          </div>
+          </div> */}
         </div>
       </motion.div>
 
@@ -105,9 +111,11 @@ const Page = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <Card title="Know David" emoji="👋" buttonText="Let's Begin!" href="/about" />
-        <Card title="Projects HQ" emoji="📂" buttonText="See My Best" href="/project" />
-        <Card title="Projects HQ" emoji="📂" buttonText="See My Best" href="/writeups" />
+     <Card title="Know David" emoji="👋" buttonText="Let's Begin!" href="/about" />
+<Card title="Projects HQ" emoji="📂" buttonText="Explore My Works" href="/project" />
+<Card title="Writeups & Blogs" emoji="✍️" buttonText="Read My Insights" href="https://medium.com/@ajitenadavid" />
+
+
       </motion.div>
 
       <motion.div
