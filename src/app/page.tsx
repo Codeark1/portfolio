@@ -62,7 +62,7 @@ const Page = () => {
             alt="Profile Picture"
             layout="fill"
             objectFit="contain"
-            className="rounded-2xl shadow-lg"
+            className="rounded-2xl "
             loading="lazy"
           />
        
