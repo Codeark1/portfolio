@@ -56,13 +56,13 @@ const Page = () => {
         transition={{ type: "spring", stiffness: 80 }}
       >
         {/* Profile Section */}
-        <div className="relative flex justify-center items-center text-white p-4">
+        <div className="relative flex  justify-center items-center text-white p-4">
           <Image
-            src="/illustartion.jpg"
+            src="/david.png"
             alt="Profile Picture"
             layout="fill"
             objectFit="contain"
-            className=""
+            className="rounded-2xl shadow-lg"
             loading="lazy"
           />
        

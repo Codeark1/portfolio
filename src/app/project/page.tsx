@@ -15,17 +15,17 @@ const projects = [
     },
     image: "/langeasy.png",
   },
-  {
-    name: "NaijaGPT",
-    description:
-      "NaijaGPT is an AI-powered chatbot designed for seamless interaction. Built as a small GPT, NaijaGPT allows users to engage in meaningful conversations with an evolving AI model. As we continuously work on this project, improvements are being added to enhance its capabilities and ensure user satisfaction.",
-    techStack: ["React", "Node.js", "MongoDB"],
-    links: {
-      // github: "#",
-      website: "#",
-    },
-    image: "/NaijaGpt.png",
-  },
+  // {
+  //   name: "NaijaGPT",
+  //   description:
+  //     "NaijaGPT is an AI-powered chatbot designed for seamless interaction. Built as a small GPT, NaijaGPT allows users to engage in meaningful conversations with an evolving AI model. As we continuously work on this project, improvements are being added to enhance its capabilities and ensure user satisfaction.",
+  //   techStack: ["React", "Node.js", "MongoDB"],
+  //   links: {
+  //     // github: "#",
+  //     website: "#",
+  //   },
+  //   image: "/NaijaGpt.png",
+  // },
   {
     name: "DSN LangeasyAI - Multilingual Data Collection Platform",
     description:
@@ -67,7 +67,7 @@ const projects = [
     techStack: ["Next js", ],
     links: {
       // github: "#",
-      website: "#",
+      website: "https://tolp.vercel.app/",
     },
     image: "/tolp.png",
   },
