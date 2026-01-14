@@ -39,6 +39,17 @@ const stackData = [
     logo: "/git-logo.svg",
     link: "https://git-scm.com/",
   },
+  {
+    name: "TypeScript",
+    logo: "/ts-logo.png",
+    link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "Tanstack Query",
+    logo: "/tanstack.png",
+    link: "https://tanstack.com/query/latest",
+  }
+
 ];
 
 const About = () => {
@@ -62,9 +73,7 @@ const About = () => {
 />
 
           <p className="text-lg font-medium text-center w-fit">
-            Hi, I&apos;m David! I&apos;m passionate about crafting intuitive and
-            user-centric interfaces that offer seamless and engaging
-            experiences.
+          Hi, I’m David — a Frontend and Mobile Engineer focused on building intuitive, user-centered interfaces that feel seamless, performant, and enjoyable to use.
           </p>
         </div>
 
@@ -74,25 +83,15 @@ const About = () => {
             More About Me
           </h2>
           <p className="text-white leading-10">
-            Hey, I&apos;m David, a React and React Native Developer who loves
-            turning ideas into sleek, functional web and mobile apps. Based in
-            Lagos, Nigeria, I specialize in building smooth, responsive
-            interfaces using diffrent Frontend/Native tools. Whether it’s a web
-            app or a mobile project, I’m all about creating seamless user
-            experiences with a dash of intuitiveness. Let’s connect and build
-            something awesome together!
+        Hey, I’m David — a React and React Native Developer passionate about turning ideas into sleek, functional web and mobile applications. Based in Lagos, Nigeria, I build responsive, user-focused interfaces using modern frontend and mobile technologies. Whether it’s a web app or a cross-platform mobile project, my goal is to create seamless, intuitive user experiences that feel effortless. Let’s connect and build something amazing together!
           </p>
 
           <div className="mt-6">
             <h3 className="text-xl font-semibold text-[#60a5fa] mb-2">
-              Student
+              Education
             </h3>
             <p className="text-white leading-9">
-              I hold a BSc in Computer and Information Science from Tai Solarin
-              University of Education. My education has given me a solid
-              foundation in tech, fueling my passion for building innovative
-              solutions and continuously expanding my skill set in frontend
-              development.
+         I hold a BSc in Computer and Information Science from Tai Solarin University of Education. My academic background provided a strong foundation in computing principles while strengthening my problem-solving and analytical skills. This, combined with hands-on experience, continues to shape my growth as a frontend developer.
             </p>
           </div>
 
